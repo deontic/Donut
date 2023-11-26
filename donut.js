@@ -1,5 +1,3 @@
-var pretag = document.getElementById("d");
-
 var tmr1 = undefined,
   tmr2 = undefined;
 var A = 1,
@@ -46,7 +44,7 @@ var asciiframe = () => {
       }
     }
   }
-  pretag.innerHTML = b.join("");
+  console.log(b.join(""))
 };
 
 setInterval(asciiframe, 50)
